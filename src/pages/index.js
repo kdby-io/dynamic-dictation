@@ -49,12 +49,14 @@ class IndexPage extends React.Component {
         })
       }
     })
-    recognition.start()
+    recognition && recognition.start()
   }
 
   render() {
     return (
       <div>
+        <div>마이크에 음성을 입력해보자!</div>
+        <div>⚠️ 데스크탑 크롬에서만 작동합니다.</div>
         {this.state.logs.map(
           log => log.transcript.split(' ').map(
             (word, index) => (
