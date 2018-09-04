@@ -2,7 +2,7 @@
   "name": "dynamic-dictation",
   "description": "Dynamic Dictation",
   "version": "1.0.0",
-  "author": "Vichyssoise <v@vichyssoise.io>",
+  "author": "Sangwon Kim <dev@pueue.com>",
   "dependencies": {
     "gatsby": "^1.9.247",
     "gatsby-link": "^1.6.40",
